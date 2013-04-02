@@ -103,13 +103,7 @@ gxp.plugins.CloudMadeSource = Ext.extend(gxp.plugins.LayerSource, {
 
         var options = {
             projection: "EPSG:900913",
-            maxExtent: new OpenLayers.Bounds(
-                -20037508.34,-20037508.34,
-                20037508.34,20037508.34
-            ),
-            maxResolution: 156543.0339,
             numZoomLevels: 19,
-            units: "m",
             attribution: this.attribution,
             buffer: 1,
             transitionEffect: "resize",
